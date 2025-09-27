@@ -5,7 +5,7 @@ class Node {
     int data;
     Node*next;
 
-    //default constructor define:::
+    //default constructor define:::///
     Node(int data){
         this ->data=data;
         this ->next= NULL;
