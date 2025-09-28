@@ -14,9 +14,20 @@ class y{
     }
 };
 
+class box{
+int len = 500;
+friend void show(box);
+};
+
+void show(box a){
+cout<<a.len<<endl;
+}
+
 int main(){
    x chai;
    y chai1;
+   box chai3;
+   show(chai3);
    chai1.show(chai);
     return 0;
 }
